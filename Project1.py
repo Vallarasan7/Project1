@@ -1,0 +1,10 @@
+a=0
+b=c=d=1
+print(a)
+print(c)
+while(c<=11):
+  print(d)
+  c+=1
+  a=b
+  b=d
+  d=a+b
